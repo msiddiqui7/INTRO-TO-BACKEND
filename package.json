@@ -1,0 +1,20 @@
+{
+  "name": "intro-to-backend",
+  "version": "1.0.0",
+  "description": "introduction to backend tutorial",
+  "homepage": "https://github.com/msiddiqui7/INTRO-TO-BACKEND#readme",
+  "bugs": {
+    "url": "https://github.com/msiddiqui7/INTRO-TO-BACKEND/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/msiddiqui7/INTRO-TO-BACKEND.git"
+  },
+  "license": "ISC",
+  "author": "Mohammed Irfan Siddiqui",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
