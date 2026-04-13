@@ -1,0 +1,13 @@
+User Registration API Call Flow
+Client sends a POST request to /api/v1/users/register with username, password, and email in the JSON body.
+app.js receives the request and forwards it to the user routes using app.use("/api/v1/users", userRoutes).
+user.route.js matches the /register endpoint and calls the registerUser controller function.
+user.controller.js (registerUser) handles:
+Validating input data.
+Checking if the username or email already exists using the User model.
+Creating and saving a new user if validation passes.
+Sending a success or error response.
+user.model.js defines the schema and interacts with MongoDB to store user data.
+
+http://localhost:5000/api/v1/users/register
+
